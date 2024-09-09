@@ -1,4 +1,5 @@
 (executable
  (name jasminsyntaxtree)
- (libraries jasmin.jasmin cmdliner) 
+ (libraries jasmin.jasmin cmdliner)
+ (flags :standard -rectypes)
 )
